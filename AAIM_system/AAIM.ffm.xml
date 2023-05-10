@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<pattrstorage name = "AAIM.ffm">
+	<slot number = "1">
+		<pattr name = "att" value = "4.32526" />
+		<pattr name = "dec" value = "243.295853" />
+		<pattr name = "envelope" value = "0.029412 0.220588 0.058824 0.235294" />
+		<pattr name = "fb" value = "0." />
+		<pattr name = "fb[1]" value = "0.1" />
+		<pattr name = "ffm" value = "0.223607 0.223607 0." />
+		<pattr name = "ffmPitchLink" value = "0.981818" />
+		<pattr name = "legato" value = "0" />
+		<pattr name = "live.gain~" value = "0." />
+		<pattr name = "modI" value = "1.000002" />
+		<pattr name = "modI[1]" value = "0." />
+		<pattr name = "modR" value = "1.000002" />
+		<pattr name = "modR[1]" value = "0." />
+		<pattr name = "pan" value = "0.5" />
+		<pattr name = "rel" value = "276.816345" />
+		<pattr name = "slide" value = "0." />
+		<pattr name = "sus" value = "0.058824" />
+		<patcher name = "AAIM.FXModule1[2]">
+			<pattr name = "fxmenu1" value = "0" />
+			<pattr name = "nFX" value = "1" />
+			<pattr name = "AAIM_FX" value = "-1" />
+		</patcher>
+		<patcher name = "polygonPreset">
+			<pattr name = "u577001695" value = "" />
+			<patcher name = "presetsPatcher">
+				<pattr name = "lcdSize" value = "80." />
+				<pattr name = "nPresets" value = "7" />
+				<pattr name = "nValues" value = "7" />
+				<pattr name = "preset1" value = "1. 0. 0. 0. 0. 0. 0." />
+				<pattr name = "preset2" value = "0. 1. 0. 0. 0. 0. 0." />
+				<pattr name = "preset3" value = "0. 0. 1. 0. 0. 0. 0." />
+				<pattr name = "preset4" value = "0. 0. 0. 1. 0. 0. 0." />
+				<pattr name = "preset5" value = "0. 0. 0. 0. 1. 0. 0." />
+				<pattr name = "preset6" value = "0. 0. 0. 0. 0. 1. 0." />
+				<pattr name = "preset7" value = "0. 0. 0. 0. 0. 0. 1." />
+			</patcher>
+		</patcher>
+	</slot>
+	<slot number = "2">
+		<pattr name = "att" value = "4.32526" />
+		<pattr name = "dec" value = "243.295853" />
+		<pattr name = "envelope" value = "0.029412 0.220588 0.117647 0.235294" />
+		<pattr name = "fb" value = "0.028" />
+		<pattr name = "fb[1]" value = "0.18" />
+		<pattr name = "ffm" value = "0.316228 0.455906 0.118322" />
+		<pattr name = "ffmPitchLink" value = "1.745455" />
+		<pattr name = "legato" value = "0" />
+		<pattr name = "live.gain~" value = "0." />
+		<pattr name = "modI" value = "2." />
+		<pattr name = "modI[1]" value = "0." />
+		<pattr name = "modR" value = "4.157" />
+		<pattr name = "modR[1]" value = "1.75" />
+		<pattr name = "pan" value = "0.5" />
+		<pattr name = "rel" value = "276.816345" />
+		<pattr name = "slide" value = "0.457143" />
+		<pattr name = "sus" value = "0.117647" />
+		<patcher name = "AAIM.FXModule1[2]">
+			<pattr name = "fxmenu1" value = "0" />
+			<pattr name = "nFX" value = "1" />
+			<pattr name = "AAIM_FX" value = "-1" />
+		</patcher>
+		<patcher name = "polygonPreset">
+			<pattr name = "u577001695" value = "" />
+			<patcher name = "presetsPatcher">
+				<pattr name = "lcdSize" value = "80." />
+				<pattr name = "nPresets" value = "7" />
+				<pattr name = "nValues" value = "7" />
+				<pattr name = "preset1" value = "1. 0. 0. 0. 0. 0. 0." />
+				<pattr name = "preset2" value = "0. 1. 0. 0. 0. 0. 0." />
+				<pattr name = "preset3" value = "0. 0. 1. 0. 0. 0. 0." />
+				<pattr name = "preset4" value = "0. 0. 0. 1. 0. 0. 0." />
+				<pattr name = "preset5" value = "0. 0. 0. 0. 1. 0. 0." />
+				<pattr name = "preset6" value = "0. 0. 0. 0. 0. 1. 0." />
+				<pattr name = "preset7" value = "0. 0. 0. 0. 0. 0. 1." />
+			</patcher>
+		</patcher>
+	</slot>
+	<slot number = "3">
+		<pattr name = "att" value = "17.3" />
+		<pattr name = "dec" value = "243.3" />
+		<pattr name = "envelope" value = "0.058822 0.22059 0.191 0.235287" />
+		<pattr name = "fb" value = "0.062" />
+		<pattr name = "fb[1]" value = "0.126" />
+		<pattr name = "ffm" value = "0.316228 0.485289 0.176068" />
+		<pattr name = "ffmPitchLink" value = "1.737678" />
+		<pattr name = "legato" value = "1" />
+		<pattr name = "live.gain~" value = "0." />
+		<pattr name = "modI" value = "2." />
+		<pattr name = "modI[1]" value = "0.05" />
+		<pattr name = "modR" value = "4.7101" />
+		<pattr name = "modR[1]" value = "3." />
+		<pattr name = "pan" value = "0.5" />
+		<pattr name = "rel" value = "276.8" />
+		<pattr name = "slide" value = "0.455143" />
+		<pattr name = "sus" value = "0.191" />
+		<patcher name = "AAIM.FXModule1[2]">
+			<pattr name = "fxmenu1" value = "0" />
+			<pattr name = "nFX" value = "1" />
+			<pattr name = "AAIM_FX" value = "-1" />
+		</patcher>
+		<patcher name = "polygonPreset">
+			<pattr name = "u577001695" value = "" />
+			<patcher name = "presetsPatcher">
+				<pattr name = "lcdSize" value = "80." />
+				<pattr name = "nPresets" value = "7" />
+				<pattr name = "nValues" value = "7" />
+				<pattr name = "preset1" value = "1. 0. 0. 0. 0. 0. 0." />
+				<pattr name = "preset2" value = "0. 1. 0. 0. 0. 0. 0." />
+				<pattr name = "preset3" value = "0. 0. 1. 0. 0. 0. 0." />
+				<pattr name = "preset4" value = "0. 0. 0. 1. 0. 0. 0." />
+				<pattr name = "preset5" value = "0. 0. 0. 0. 1. 0. 0." />
+				<pattr name = "preset6" value = "0. 0. 0. 0. 0. 1. 0." />
+				<pattr name = "preset7" value = "0. 0. 0. 0. 0. 0. 1." />
+			</patcher>
+		</patcher>
+	</slot>
+</pattrstorage>
+

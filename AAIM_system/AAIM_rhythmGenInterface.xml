@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<pattrstorage name = "AAIM_rhythmGenInterface">
+	<slot number = "1">
+		<pattr name = "globalTempo" value = "1" />
+		<pattr name = "ioi_probabilities" value = "0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 100. 0. 0. 0. 0. 45.833332 0. 0. 0. 0. 4.166667 0. 0. 0. 0. 0." />
+		<pattr name = "nBars" value = "4" />
+		<pattr name = "nBeats" value = "8" />
+		<pattr name = "nVoices" value = "10" />
+		<pattr name = "voiceComplexity" value = "1. 1. 1. 1. 1. 1. 1. 1. 1. 1." />
+		<pattr name = "voiceDeviations" value = "0. 0. 0. 0. 0. 0. 0. 0. 0. 0." />
+		<pattr name = "voiceOn" value = "1 1 1 1 1 1 1 1 1 1" />
+		<pattr name = "voiceRests" value = "1. 1. 1. 1. 1. 1. 1. 1. 1. 1." />
+		<pattr name = "voiceTempo" value = "0 0 0 0 0 0 0 0 0 0" />
+		<patcher name = "polygonPreset">
+			<patcher name = "presetsPatcher">
+				<pattr name = "lcdSize" value = "200." />
+				<pattr name = "nPresets" value = "7" />
+				<pattr name = "nValues" value = "7" />
+				<pattr name = "preset1" value = "1. 0. 0. 0. 0. 0. 0." />
+				<pattr name = "preset2" value = "0. 1. 0. 0. 0. 0. 0." />
+				<pattr name = "preset3" value = "0. 0. 1. 0. 0. 0. 0." />
+				<pattr name = "preset4" value = "0. 0. 0. 1. 0. 0. 0." />
+				<pattr name = "preset5" value = "0. 0. 0. 0. 1. 0. 0." />
+				<pattr name = "preset6" value = "0. 0. 0. 0. 0. 1. 0." />
+				<pattr name = "preset7" value = "0. 0. 0. 0. 0. 0. 1." />
+			</patcher>
+		</patcher>
+	</slot>
+	<slot number = "2">
+		<pattr name = "globalTempo" value = "1" />
+		<pattr name = "ioi_probabilities" value = "0. 0. 0. 0. 0. 10.603153 0. 0. 0. 0. 44.642857 0. 0. 0. 0. 29.690989 0. 0. 0. 0. 16.515417 0. 0. 0. 0. 0." />
+		<pattr name = "nBars" value = "4" />
+		<pattr name = "nBeats" value = "8" />
+		<pattr name = "nVoices" value = "10" />
+		<pattr name = "voiceComplexity" value = "1. 1. 1. 1. 1. 1. 1. 1. 1. 1." />
+		<pattr name = "voiceDeviations" value = "0. 0. 0. 0. 0. 0. 0. 0. 0. 0." />
+		<pattr name = "voiceOn" value = "1 1 1 1 1 1 1 1 1 1" />
+		<pattr name = "voiceRests" value = "1. 1. 1. 1. 1. 1. 1. 1. 1. 1." />
+		<pattr name = "voiceTempo" value = "0 0 0 0 0 0 0 0 0 0" />
+		<patcher name = "polygonPreset">
+			<patcher name = "presetsPatcher">
+				<pattr name = "lcdSize" value = "200." />
+				<pattr name = "nPresets" value = "7" />
+				<pattr name = "nValues" value = "7" />
+				<pattr name = "preset1" value = "1. 0. 0. 0. 0. 0. 0." />
+				<pattr name = "preset2" value = "0. 1. 0. 0. 0. 0. 0." />
+				<pattr name = "preset3" value = "0. 0. 1. 0. 0. 0. 0." />
+				<pattr name = "preset4" value = "0. 0. 0. 1. 0. 0. 0." />
+				<pattr name = "preset5" value = "0. 0. 0. 0. 1. 0. 0." />
+				<pattr name = "preset6" value = "0. 0. 0. 0. 0. 1. 0." />
+				<pattr name = "preset7" value = "0. 0. 0. 0. 0. 0. 1." />
+			</patcher>
+		</patcher>
+	</slot>
+	<slot number = "3">
+		<pattr name = "globalTempo" value = "1" />
+		<pattr name = "ioi_probabilities" value = "0. 0. 0. 0. 0. 0. 0. 0. 13.095238 0. 48.214287 0. 0. 27.380953 0. 0. 0. 0. 17.857143 0. 0. 0. 0. 0. 0. 0." />
+		<pattr name = "nBars" value = "4" />
+		<pattr name = "nBeats" value = "8" />
+		<pattr name = "nVoices" value = "10" />
+		<pattr name = "voiceComplexity" value = "1. 1. 1. 1. 1. 1. 1. 1. 1. 1." />
+		<pattr name = "voiceDeviations" value = "0. 0. 0. 0. 0. 0. 0. 0. 0. 0." />
+		<pattr name = "voiceOn" value = "1 1 1 1 1 1 1 1 1 1" />
+		<pattr name = "voiceRests" value = "1. 1. 1. 1. 1. 1. 1. 1. 1. 1." />
+		<pattr name = "voiceTempo" value = "0 0 0 0 0 0 0 0 0 0" />
+		<patcher name = "polygonPreset">
+			<patcher name = "presetsPatcher">
+				<pattr name = "lcdSize" value = "200." />
+				<pattr name = "nPresets" value = "7" />
+				<pattr name = "nValues" value = "7" />
+				<pattr name = "preset1" value = "1. 0. 0. 0. 0. 0. 0." />
+				<pattr name = "preset2" value = "0. 1. 0. 0. 0. 0. 0." />
+				<pattr name = "preset3" value = "0. 0. 1. 0. 0. 0. 0." />
+				<pattr name = "preset4" value = "0. 0. 0. 1. 0. 0. 0." />
+				<pattr name = "preset5" value = "0. 0. 0. 0. 1. 0. 0." />
+				<pattr name = "preset6" value = "0. 0. 0. 0. 0. 1. 0." />
+				<pattr name = "preset7" value = "0. 0. 0. 0. 0. 0. 1." />
+			</patcher>
+		</patcher>
+	</slot>
+	<slot number = "4">
+		<pattr name = "globalTempo" value = "1" />
+		<pattr name = "ioi_probabilities" value = "0. 0. 0. 0. 0. 10.493175 0. 0. 0. 0. 66.071426 0. 10.714286 0. 0. 46.42857 0. 9.523809 0. 0. 36.904762 0. 0. 0. 0. 8.333333" />
+		<pattr name = "nBars" value = "4" />
+		<pattr name = "nBeats" value = "8" />
+		<pattr name = "nVoices" value = "10" />
+		<pattr name = "voiceComplexity" value = "1. 1. 1. 1. 1. 1. 1. 1. 1. 1." />
+		<pattr name = "voiceDeviations" value = "0. 0. 0. 0. 0. 0. 0. 0. 0. 0." />
+		<pattr name = "voiceOn" value = "1 1 1 1 1 1 1 1 1 1" />
+		<pattr name = "voiceRests" value = "1. 1. 1. 1. 1. 1. 1. 1. 1. 1." />
+		<pattr name = "voiceTempo" value = "0 0 0 0 0 0 0 0 0 0" />
+		<patcher name = "polygonPreset">
+			<patcher name = "presetsPatcher">
+				<pattr name = "lcdSize" value = "200." />
+				<pattr name = "nPresets" value = "7" />
+				<pattr name = "nValues" value = "7" />
+				<pattr name = "preset1" value = "1. 0. 0. 0. 0. 0. 0." />
+				<pattr name = "preset2" value = "0. 1. 0. 0. 0. 0. 0." />
+				<pattr name = "preset3" value = "0. 0. 1. 0. 0. 0. 0." />
+				<pattr name = "preset4" value = "0. 0. 0. 1. 0. 0. 0." />
+				<pattr name = "preset5" value = "0. 0. 0. 0. 1. 0. 0." />
+				<pattr name = "preset6" value = "0. 0. 0. 0. 0. 1. 0." />
+				<pattr name = "preset7" value = "0. 0. 0. 0. 0. 0. 1." />
+			</patcher>
+		</patcher>
+	</slot>
+	<slot number = "5">
+		<pattr name = "globalTempo" value = "1" />
+		<pattr name = "ioi_probabilities" value = "0. 0. 0. 0. 0. 0. 2.380952 0. 0. 0. 0. 100. 0. 0. 0. 0. 14.880953 0. 0. 0. 0. 0. 0. 0. 0. 0." />
+		<pattr name = "nBars" value = "4" />
+		<pattr name = "nBeats" value = "8" />
+		<pattr name = "nVoices" value = "10" />
+		<pattr name = "voiceComplexity" value = "1. 1. 1. 1. 1. 1. 1. 1. 1. 1." />
+		<pattr name = "voiceDeviations" value = "0. 0. 0. 0. 0. 0. 0. 0. 0. 0." />
+		<pattr name = "voiceOn" value = "1 1 1 1 1 1 1 1 1 1" />
+		<pattr name = "voiceRests" value = "1. 1. 1. 1. 1. 1. 1. 1. 1. 1." />
+		<pattr name = "voiceTempo" value = "0 0 0 0 0 0 0 0 0 0" />
+		<patcher name = "polygonPreset">
+			<patcher name = "presetsPatcher">
+				<pattr name = "lcdSize" value = "200." />
+				<pattr name = "nPresets" value = "7" />
+				<pattr name = "nValues" value = "7" />
+				<pattr name = "preset1" value = "1. 0. 0. 0. 0. 0. 0." />
+				<pattr name = "preset2" value = "0. 1. 0. 0. 0. 0. 0." />
+				<pattr name = "preset3" value = "0. 0. 1. 0. 0. 0. 0." />
+				<pattr name = "preset4" value = "0. 0. 0. 1. 0. 0. 0." />
+				<pattr name = "preset5" value = "0. 0. 0. 0. 1. 0. 0." />
+				<pattr name = "preset6" value = "0. 0. 0. 0. 0. 1. 0." />
+				<pattr name = "preset7" value = "0. 0. 0. 0. 0. 0. 1." />
+			</patcher>
+		</patcher>
+	</slot>
+	<slot number = "6">
+		<pattr name = "globalTempo" value = "1" />
+		<pattr name = "ioi_probabilities" value = "0. 0. 0. 0. 0. 0. 0. 0. 100. 0. 0. 0. 0. 52.976189 0. 0. 0. 0. 13.690476 0. 0. 0. 0. 0. 0. 0." />
+		<pattr name = "nBars" value = "4" />
+		<pattr name = "nBeats" value = "8" />
+		<pattr name = "nVoices" value = "10" />
+		<pattr name = "voiceComplexity" value = "1. 1. 1. 1. 1. 1. 1. 1. 1. 1." />
+		<pattr name = "voiceDeviations" value = "0. 0. 0. 0. 0. 0. 0. 0. 0. 0." />
+		<pattr name = "voiceOn" value = "1 1 1 1 1 1 1 1 1 1" />
+		<pattr name = "voiceRests" value = "1. 1. 1. 1. 1. 1. 1. 1. 1. 1." />
+		<pattr name = "voiceTempo" value = "0 0 0 0 0 0 0 0 0 0" />
+		<patcher name = "polygonPreset">
+			<patcher name = "presetsPatcher">
+				<pattr name = "lcdSize" value = "200." />
+				<pattr name = "nPresets" value = "7" />
+				<pattr name = "nValues" value = "7" />
+				<pattr name = "preset1" value = "1. 0. 0. 0. 0. 0. 0." />
+				<pattr name = "preset2" value = "0. 1. 0. 0. 0. 0. 0." />
+				<pattr name = "preset3" value = "0. 0. 1. 0. 0. 0. 0." />
+				<pattr name = "preset4" value = "0. 0. 0. 1. 0. 0. 0." />
+				<pattr name = "preset5" value = "0. 0. 0. 0. 1. 0. 0." />
+				<pattr name = "preset6" value = "0. 0. 0. 0. 0. 1. 0." />
+				<pattr name = "preset7" value = "0. 0. 0. 0. 0. 0. 1." />
+			</patcher>
+		</patcher>
+	</slot>
+	<slot number = "7">
+		<pattr name = "globalTempo" value = "1" />
+		<pattr name = "ioi_probabilities" value = "0. 0. 0. 0. 0. 0. 0. 0. 0. 100. 0. 0. 0. 0. 11.904762 0. 0. 0. 0. 4.166667 0. 0. 0. 0. 0. 0." />
+		<pattr name = "nBars" value = "4" />
+		<pattr name = "nBeats" value = "8" />
+		<pattr name = "nVoices" value = "10" />
+		<pattr name = "voiceComplexity" value = "1. 1. 1. 1. 1. 1. 1. 1. 1. 1." />
+		<pattr name = "voiceDeviations" value = "0. 0. 0. 0. 0. 0. 0. 0. 0. 0." />
+		<pattr name = "voiceOn" value = "1 1 1 1 1 1 1 1 1 1" />
+		<pattr name = "voiceRests" value = "1. 1. 1. 1. 1. 1. 1. 1. 1. 1." />
+		<pattr name = "voiceTempo" value = "0 0 0 0 0 0 0 0 0 0" />
+		<patcher name = "polygonPreset">
+			<patcher name = "presetsPatcher">
+				<pattr name = "lcdSize" value = "200." />
+				<pattr name = "nPresets" value = "7" />
+				<pattr name = "nValues" value = "7" />
+				<pattr name = "preset1" value = "1. 0. 0. 0. 0. 0. 0." />
+				<pattr name = "preset2" value = "0. 1. 0. 0. 0. 0. 0." />
+				<pattr name = "preset3" value = "0. 0. 1. 0. 0. 0. 0." />
+				<pattr name = "preset4" value = "0. 0. 0. 1. 0. 0. 0." />
+				<pattr name = "preset5" value = "0. 0. 0. 0. 1. 0. 0." />
+				<pattr name = "preset6" value = "0. 0. 0. 0. 0. 1. 0." />
+				<pattr name = "preset7" value = "0. 0. 0. 0. 0. 0. 1." />
+			</patcher>
+		</patcher>
+	</slot>
+</pattrstorage>
+
