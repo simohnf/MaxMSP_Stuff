@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 6,
-			"revision" : 0,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1212.0, 687.0 ],
+		"rect" : [ 34.0, 87.0, 1212.0, 687.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,38 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-35",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 540.0, 63.0, 71.0, 22.0 ],
+					"text" : "sjf.apLoop~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-34",
+					"maxclass" : "scope~",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1118.0, 251.0, 187.0, 201.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-33",
+					"maxclass" : "scope~",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patching_rect" : [ 929.0, 251.0, 187.0, 201.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"format" : 6,
 					"id" : "obj-27",
 					"maxclass" : "flonum",
@@ -58,8 +90,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1033.0, 107.0, 48.0, 22.0 ],
-					"text" : "sig~ 20"
+					"patching_rect" : [ 1033.0, 107.0, 41.0, 22.0 ],
+					"text" : "sig~ 2"
 				}
 
 			}
@@ -68,8 +100,8 @@
 					"id" : "obj-24",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "signal", "signal", "signal" ],
 					"patching_rect" : [ 1022.0, 152.0, 69.0, 22.0 ],
 					"text" : "gen~ chFM"
 				}
@@ -94,7 +126,7 @@
 					"maxclass" : "scope~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 724.0, 251.0, 333.0, 322.0 ]
+					"patching_rect" : [ 724.0, 251.0, 187.0, 201.0 ]
 				}
 
 			}
@@ -315,8 +347,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 0,
+							"minor" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -601,6 +633,32 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"attr" : "mi",
+					"id" : "obj-31",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1125.0, 119.0, 150.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "mr",
+					"id" : "obj-32",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1125.0, 95.0, 150.0, 22.0 ]
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -735,6 +793,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-33", 0 ],
+					"source" : [ "obj-24", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-34", 0 ],
+					"source" : [ "obj-24", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
 					"source" : [ "obj-25", 0 ]
 				}
@@ -771,6 +843,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"source" : [ "obj-31", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"source" : [ "obj-32", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"source" : [ "obj-8", 0 ]
 				}
@@ -800,38 +886,42 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "chFM.gendsp",
-				"bootpath" : "~/Programming_Stuff/MaxMSP_Stuff/chaos",
+				"bootpath" : "~/Programming_Stuff/_MaxMSP/MaxMSP_Stuff/chaos",
 				"patcherrelativepath" : ".",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "duffing.gendsp",
-				"bootpath" : "~/Programming_Stuff/MaxMSP_Stuff/chaos",
+				"bootpath" : "~/Programming_Stuff/_MaxMSP/MaxMSP_Stuff/chaos",
 				"patcherrelativepath" : ".",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "logisticMap.gendsp",
-				"bootpath" : "~/Programming_Stuff/MaxMSP_Stuff/chaos",
+				"bootpath" : "~/Programming_Stuff/_MaxMSP/MaxMSP_Stuff/chaos",
 				"patcherrelativepath" : ".",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "lorenz.gendsp",
-				"bootpath" : "~/Programming_Stuff/MaxMSP_Stuff/chaos",
+				"bootpath" : "~/Programming_Stuff/_MaxMSP/MaxMSP_Stuff/chaos",
 				"patcherrelativepath" : ".",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rossler.gendsp",
-				"bootpath" : "~/Programming_Stuff/MaxMSP_Stuff/chaos",
+				"bootpath" : "~/Programming_Stuff/_MaxMSP/MaxMSP_Stuff/chaos",
 				"patcherrelativepath" : ".",
 				"type" : "gDSP",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "sjf.apLoop~.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0
