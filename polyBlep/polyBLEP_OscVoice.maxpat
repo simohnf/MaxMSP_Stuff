@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 335.0, 302.0, 1021.0, 610.0 ],
+		"rect" : [ 256.0, 109.0, 1021.0, 610.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -646,8 +646,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 26.0, 290.0, 84.0, 22.0 ],
-					"text" : "sjf.polyBLEP~"
+					"patching_rect" : [ 26.0, 290.0, 116.0, 22.0 ],
+					"text" : "sjf.waveTable_Osc~"
 				}
 
 			}
@@ -658,10 +658,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 82.0, 442.0, 42.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out~ 1"
 				}
 
@@ -730,8 +726,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 110.0, 239.0, 50.0, 22.0 ],
-					"text" : "type $1"
+					"patching_rect" : [ 110.0, 239.0, 71.0, 22.0 ],
+					"text" : "type $1 512"
 				}
 
 			}

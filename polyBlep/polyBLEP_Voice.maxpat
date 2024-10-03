@@ -252,7 +252,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 55.0, 365.0, 275.0, 22.0 ],
+					"patching_rect" : [ 55.0, 365.0, 168.0, 22.0 ],
 					"text" : "poly~ polyBLEP_OscVoice 16"
 				}
 
